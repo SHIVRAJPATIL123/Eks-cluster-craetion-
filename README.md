@@ -7,4 +7,14 @@
 7) go to iam create role trusted entity aws services use case ec2 next
 8) policy amazonec2container-registry-readonlypolicy  and node-amazoneks worker-nodepolicy  next name next create role
 9) GO to eks dashboard compute /node group /create nodegroup /name /select role we create /then select instance type t3medium ,
-10) saclng capactiy 222 subnet and then (optionalkey pair) next create 
+10) scaling capactiy 222 subnet and then (optionalkey pair) next create
+11) Now go to terminal local
+12) cd ~/.aws/
+13) ls
+14) rm config and otherfile
+15) aws configure
+16) aws eks update-kubeconfig --region us-east-1 --name test-cluster
+17)kubectl get nodes
+
+
+
